@@ -20,6 +20,6 @@ end
 describe "About page" do
     it "should have the content 'About Us'" do
         visit about_path
-        expect(page).to have_content('About')
+        expect(page).to have_content('About Us')
     end
 end
