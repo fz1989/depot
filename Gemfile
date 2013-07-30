@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 group :development do
     gem 'rspec-rails', '2.13.1'
     gem 'sqlite3', '1.3.7'
+    gem 'capybara'
 end
 
 gem 'sass-rails', '4.0.0'
