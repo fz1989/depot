@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source "http://ruby.taobao.org"
 ruby '2.0.0'
 
 gem 'rails', '4.0.0'
@@ -9,6 +9,8 @@ group :development do
     gem 'rspec-rails', '2.13.1'
     gem 'sqlite3', '1.3.7'
     gem 'capybara'
+    gem 'factory_girl_rails', '4.2.1'
+
 end
 
 gem 'sass-rails', '4.0.0'
